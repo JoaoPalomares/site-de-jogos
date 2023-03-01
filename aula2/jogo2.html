@@ -17,38 +17,50 @@
     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
     <h2>Imagens</h2>
     
-    <div class="content">
-        <div class="slides">
-          <input type="radio" name="slide" id="slide1" checked>
-          <input type="radio" name="slide" id="slide2">
-          <input type="radio" name="slide" id="slide3">
-          <input type="radio" name="slide" id="slide4">
-          <input type="radio" name="slide" id="slide5">
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="assets/_imagens/elden-ring/er1.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="assets/_imagens/elden-ring/er2.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="assets/_imagens/elden-ring/er3.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="assets/_imagens/elden-ring/er4.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
         
-          <div class="slide s1">
-              <img src="assets/_imagens/elden-ring/er1.jpg" alt="">
-          </div>
-          <div class="slide s2">
-              <img src="assets/_imagens/elden-ring/er2.jpg" alt="">
-          </div>
-          <div class="slide s3">
-              <img src="assets/_imagens/elden-ring/er3.jpg" alt="">
-          </div>
-          <div class="slide s4">
-              <img src="assets/_imagens/elden-ring/er4.jpg" alt="">
-          </div>
-          <div class="slide s5">
-              <img src="assets/_imagens/elden-ring/er5.jpg" alt="">
-          </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="assets/_imagens/elden-ring/er5.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
         </div>
-  
-        <div class="navigation">
-              <label class="bar" for="slide1"></label>
-              <label class="bar" for="slide2"></label>
-              <label class="bar" for="slide3"></label>
-              <label class="bar" for="slide4"></label>
-              <label class="bar" for="slide5"></label>
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-      </div>
+        <br>
+      
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+      <script type="text/javascript" src="_js/jogo2.js"></script>
  </body>
 </html>
